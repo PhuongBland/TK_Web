@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/1.1.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -23,14 +23,14 @@
 }
 
 .header a{
-    color: white;
+    color: rgb(230, 36, 36);
     text-decoration: none;
 }
 
 .logo{
     display: block;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 900;
 }
 
 .nav ul{
@@ -42,10 +42,10 @@
 
 }
 .nav ul li a{
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-family: 'Pattaya', sans-serif;
     transition: .4s;
 }
 .nav ul li a:hover{
-    color: rgb(211, 19, 51);
+    color: rgb(19, 18, 18);
 }
