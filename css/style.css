@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-image: url(../images/1.1.jpg);
+    background-image: url(../images/1.16.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -23,7 +23,7 @@
 }
 
 .header a{
-    color: rgb(230, 36, 36);
+    color: rgb(209, 9, 33);
     text-decoration: none;
 }
 
@@ -48,4 +48,103 @@
 }
 .nav ul li a:hover{
     color: rgb(19, 18, 18);
+}
+.header-box{
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(7, 7, 7);
+    width: 35%;
+    height:40%;
+    position:absolute;
+    left:50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.h1{
+     font-family: 'Pattaya', sans-serif;
+     font-size:40px;
+     text-align:center;
+     letter-spacing:3px;
+     text-transform:uppercase;
+     font-weight:200;
+}
+.center{
+    margin-bottom:10px;
+    text-align:center;
+}
+.hi{
+    margin:0;
+    padding:0;
+    font-size:30px
+
+}
+.hi p{
+    text-align: center;
+}
+.firt{
+   
+    background-image: url(../images/1.8.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 0%;
+    font-family: 'Pattaya', sans-serif;
+}
+.firt h1{
+    color: #0d0d0d;
+    font-size: 30px;
+    text-align: center;
+}
+.mot {
+    font-size: 20px;
+    color:#1562bf;
+}
+.mot ol{
+    list-style: none;
+}
+
+.mot ol li a{
+    color: cornsilk;
+    text-decoration: none; 
+}
+.mot ol li a:hover{
+    color: rgb(19, 18, 18);
+    background-color: rosybrown;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-family: 'Pattaya', sans-serif;
+
+}
+.two h2{
+    font-size: 30px;
+    text-align: center;
+    color: #7083ec;
+}
+.three{
+    font-size: 20px;
+    color: #af170b;
+}
+.three ol{
+    list-style: none;
+}
+.three ol li a{
+    color: #1f2323;
+    text-decoration: none;
+}
+.three ol li a:hover{
+    color: #373436;
+    background-color: #8a8c86;
 }
