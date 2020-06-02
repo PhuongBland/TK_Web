@@ -90,7 +90,6 @@
    
     background-image: url(../images/1.8.jpg);
     width: 100%;
-    height: 100vh;
     background-size: cover;
     background-position:center center;
     padding-top: 50px;
@@ -119,7 +118,7 @@
     background-color: #8dc6cc;
 }
 .two{
-    background-image: url(../images/1.15.png);
+    background-image: url(../images/1.2.jpg);
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -133,11 +132,11 @@
 .two h2{
     font-size: 30px;
     text-align: center;
-    color: #bd3d13;
+  color:black;
 }
 .three{
     font-size: 20px;
-    color: #4632a5;
+    color: #2296ffbd;
 }
 .three ol{
     list-style: none;
@@ -147,6 +146,6 @@
     text-decoration: none;
 }
 .three ol li a:hover{
-    color: #cf4646;
-    background-color: #f7f0f4;
+    color: #f01616f5;
+    background-color: #5bb47a;
 }
